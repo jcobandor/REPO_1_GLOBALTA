@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASO02_Caso_guardado_no_modifica</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISCHANGED( Description)</errorConditionFormula>
+    <errorMessage>CASO02 - Cuando el caso se guarda no puede ser modificado</errorMessage>
+</ValidationRule>

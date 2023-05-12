@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASO05_Valida_producto_vigente_de_poliza</fullName>
+    <active>false</active>
+    <description>Valida si el producto seleccionado es válido para la póliza sobre la cual se está creando el caso</description>
+    <errorConditionFormula>OR(AND(ISPICKVAL(Producto__c,&quot;Crédito&quot;), Poliza__r.Financiada__c = false), 
+AND( Poliza__r.ProductoCaso__c = &quot;Rentas vitalicias&quot;, 
+OR(ISPICKVAL(Producto__c,&quot;Vida individual&quot;),
+ISPICKVAL(Producto__c,&quot;Vida grupo&quot;),
+ISPICKVAL(Producto__c,&quot;Pensiones voluntarias&quot;), 
+ISPICKVAL(Producto__c,&quot;Seguro educativo&quot;))),
+AND( Poliza__r.ProductoCaso__c = &quot;Seguro Educativo&quot;, 
+OR(ISPICKVAL(Producto__c,&quot;Vida individual&quot;),
+ISPICKVAL(Producto__c,&quot;Vida grupo&quot;),
+ISPICKVAL(Producto__c,&quot;Pensiones voluntarias&quot;), 
+ISPICKVAL(Producto__c,&quot;Rentas vitalicias&quot;))),
+AND( Poliza__r.ProductoCaso__c = &quot;Vida individual&quot;, 
+OR(ISPICKVAL(Producto__c,&quot;Rentas vitalicias&quot;),
+ISPICKVAL(Producto__c,&quot;Vida grupo&quot;),
+ISPICKVAL(Producto__c,&quot;Pensiones voluntarias&quot;), 
+ISPICKVAL(Producto__c,&quot;Seguro educativo&quot;))),
+AND( Poliza__r.ProductoCaso__c = &quot;Vida grupo&quot;, 
+OR(ISPICKVAL(Producto__c,&quot;Vida individual&quot;),
+ISPICKVAL(Producto__c,&quot;Rentas vitalicias&quot;),
+ISPICKVAL(Producto__c,&quot;Pensiones voluntarias&quot;), 
+ISPICKVAL(Producto__c,&quot;Seguro educativo&quot;))))</errorConditionFormula>
+    <errorMessage>CASO05-El producto que ha seleccionado no está relacionado con la póliza escogida.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoInformes__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo informes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FELICITACION</fullName>
+                <default>false</default>
+                <label>FELICITACION</label>
+            </value>
+            <value>
+                <fullName>PETICION (SOLICITUD)</fullName>
+                <default>false</default>
+                <label>PETICION (SOLICITUD)</label>
+            </value>
+            <value>
+                <fullName>QUEJA O RECLAMO</fullName>
+                <default>false</default>
+                <label>QUEJA O RECLAMO</label>
+            </value>
+            <value>
+                <fullName>SUGERENCIA</fullName>
+                <default>false</default>
+                <label>SUGERENCIA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>imagenSemaforo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(estadoSemaforo__c,&quot;Verde&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=015G0000001irhX&quot;, &quot;Verde&quot;), 
+IF(ISPICKVAL(estadoSemaforo__c,&quot;Amarillo&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=015G0000001irha&quot;, &quot;Amarillo&quot;), 
+IF(ISPICKVAL(estadoSemaforo__c,&quot;Rojo&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=015G0000001irhZ&quot;, &quot;Rojo&quot;), 
+IF(ISPICKVAL(estadoSemaforo__c,&quot;Morado&quot;), IMAGE(&quot;/servlet/servlet.FileDownload?file=015G0000001irhY&quot;, &quot;Morado&quot;), 
+IMAGE(&quot;/servlet/servlet.FileDownload?file=015110000009Hp7&quot;, &quot;Verde&quot;)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Semáforo</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

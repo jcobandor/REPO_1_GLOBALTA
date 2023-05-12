@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASO04_Compania_debe_ser_igual_en_poliza</fullName>
+    <active>false</active>
+    <description>El valor seleccionado en el campo compañía debe ser igual a la compañía de la póliza asociada en el caso</description>
+    <errorConditionFormula>AND(NOT(RecordType.Name =  Poliza__r.EmpresaProducto__c), NOT(ISBLANK(Poliza__c)))</errorConditionFormula>
+    <errorMessage>CASO04-El valor seleccionado en el campo compañía debe ser igual a la compañía de la póliza asociada en el caso</errorMessage>
+</ValidationRule>

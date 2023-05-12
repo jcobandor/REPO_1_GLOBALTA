@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Asuntos__c</fullName>
+    <externalId>false</externalId>
+    <label>Asunto</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Atención al cliente</fullName>
+                <default>false</default>
+                <label>Atención al cliente</label>
+            </value>
+            <value>
+                <fullName>Cumplimiento de acuerdos y solicitudes</fullName>
+                <default>false</default>
+                <label>Cumplimiento de acuerdos y solicitudes</label>
+            </value>
+            <value>
+                <fullName>Información suministrada</fullName>
+                <default>false</default>
+                <label>Información suministrada</label>
+            </value>
+            <value>
+                <fullName>Manejo de datos personales</fullName>
+                <default>false</default>
+                <label>Manejo de datos personales</label>
+            </value>
+            <value>
+                <fullName>Manejo ético</fullName>
+                <default>false</default>
+                <label>Manejo ético</label>
+            </value>
+            <value>
+                <fullName>Proceso de compra</fullName>
+                <default>false</default>
+                <label>Proceso de compra</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Atención al cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Cumplimiento de acuerdos y solicitudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Información suministrada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Manejo de datos personales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Manejo ético</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queja</controllingFieldValue>
+            <valueName>Proceso de compra</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

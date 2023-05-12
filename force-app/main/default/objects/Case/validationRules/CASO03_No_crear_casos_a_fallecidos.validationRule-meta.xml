@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CASO03_No_crear_casos_a_fallecidos</fullName>
+    <active>true</active>
+    <description>El sistema no permite crear casos a  un cliente fallecido</description>
+    <errorConditionFormula>NOT(ISBLANK( Account.FechaFallecimiento__c ))</errorConditionFormula>
+    <errorMessage>CASO03-El sistema no permite crear casos a  un cliente fallecido</errorMessage>
+</ValidationRule>

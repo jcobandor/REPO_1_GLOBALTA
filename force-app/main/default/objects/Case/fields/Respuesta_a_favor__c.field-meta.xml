@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Respuesta_a_favor__c</fullName>
+    <externalId>false</externalId>
+    <label>Respuesta a favor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consumidor Financiero</fullName>
+                <default>false</default>
+                <label>Consumidor Financiero</label>
+            </value>
+            <value>
+                <fullName>Global Seguros</fullName>
+                <default>false</default>
+                <label>Global Seguros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

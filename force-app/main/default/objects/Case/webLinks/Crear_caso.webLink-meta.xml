@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crear_caso</fullName>
+    <availability>online</availability>
+    <description>Botón para ejecutar una visualforce, para seleccionar la cuenta sobre la cual se creará el caso</description>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Crear caso</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/16.0/connection.js&quot;)}; 
+{!REQUIRESCRIPT(&quot;/soap/ajax/15.0/apex.js&quot;)}; 
+
+var rutaPagina = &apos;/apex/AccountSelection_pag?id={! Poliza__c.Id}&apos;; 
+ 
+      window.location.href = window.location.protocol + &apos;//&apos; + window.location.hostname + rutaPagina;</url>
+</WebLink>

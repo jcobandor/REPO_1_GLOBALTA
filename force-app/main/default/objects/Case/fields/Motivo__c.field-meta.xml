@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Asuntos__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>6-Mal trato por parte de un funcionario</fullName>
+                <default>false</default>
+                <label>6-Mal trato por parte de un funcionario</label>
+            </value>
+            <value>
+                <fullName>7-Mal trato por parte del asesor comercial</fullName>
+                <default>false</default>
+                <label>7-Mal trato por parte del asesor comercial</label>
+            </value>
+            <value>
+                <fullName>26-Obstáculo para la interposición de quejas, reclamos o peticiones</fullName>
+                <default>false</default>
+                <label>26-Obstáculo para la interposición de quejas, reclamos o peticiones</label>
+            </value>
+            <value>
+                <fullName>27-Demora en la respuesta a quejas, reclamos o peticiones</fullName>
+                <default>false</default>
+                <label>27-Demora en la respuesta a quejas, reclamos o peticiones</label>
+            </value>
+            <value>
+                <fullName>28-Errores en la resolución de quejas, reclamos o peticiones.</fullName>
+                <default>false</default>
+                <label>28-Errores en la resolución de quejas, reclamos o peticiones.</label>
+            </value>
+            <value>
+                <fullName>29-No resolución a quejas, peticiones y reclamos</fullName>
+                <default>false</default>
+                <label>29-No resolución a quejas, peticiones y reclamos</label>
+            </value>
+            <value>
+                <fullName>5-Dificultad en la comunicación con la entidad</fullName>
+                <default>false</default>
+                <label>5-Dificultad en la comunicación con la entidad</label>
+            </value>
+            <value>
+                <fullName>12-Demora o no entrega de la cotización</fullName>
+                <default>false</default>
+                <label>12-Demora o no entrega de la cotización</label>
+            </value>
+            <value>
+                <fullName>105-Demora o no realización de modificación de financiación de póliza</fullName>
+                <default>false</default>
+                <label>105-Demora o no realización de modificación de financiación de póliza</label>
+            </value>
+            <value>
+                <fullName>106-Error en modificación de financiación de póliza</fullName>
+                <default>false</default>
+                <label>106-Error en modificación de financiación de póliza</label>
+            </value>
+            <value>
+                <fullName>1-Publicidad engañosa</fullName>
+                <default>false</default>
+                <label>1-Publicidad engañosa</label>
+            </value>
+            <value>
+                <fullName>2-Dificultad en el acceso a la información</fullName>
+                <default>false</default>
+                <label>2-Dificultad en el acceso a la información</label>
+            </value>
+            <value>
+                <fullName>3-Información incompleta o errada</fullName>
+                <default>false</default>
+                <label>3-Información incompleta o errada</label>
+            </value>
+            <value>
+                <fullName>11-Cotización errada</fullName>
+                <default>false</default>
+                <label>11-Cotización errada</label>
+            </value>
+            <value>
+                <fullName>14-Error o falta de claridad en las cláusulas del contrato o de la póliza</fullName>
+                <default>false</default>
+                <label>14-Error o falta de claridad en las cláusulas del contrato o de la póliza</label>
+            </value>
+            <value>
+                <fullName>16-Vinculación no autorizada</fullName>
+                <default>false</default>
+                <label>16-Vinculación no autorizada</label>
+            </value>
+            <value>
+                <fullName>34-Inadecuado tratamiento de datos personales</fullName>
+                <default>false</default>
+                <label>34-Inadecuado tratamiento de datos personales</label>
+            </value>
+            <value>
+                <fullName>8-Presunta actuación fraudulenta o no ética del personal</fullName>
+                <default>false</default>
+                <label>8-Presunta actuación fraudulenta o no ética del personal</label>
+            </value>
+            <value>
+                <fullName>102-Demora en el servicio requerido para emisión de póliza</fullName>
+                <default>false</default>
+                <label>102-Demora en el servicio requerido para emisión de póliza</label>
+            </value>
+            <value>
+                <fullName>103-Demora o no entrega de recibo de pago</fullName>
+                <default>false</default>
+                <label>103-Demora o no entrega de recibo de pago</label>
+            </value>
+            <value>
+                <fullName>104-Error en la facturación o cobro no pactado</fullName>
+                <default>false</default>
+                <label>104-Error en la facturación o cobro no pactado</label>
+            </value>
+            <value>
+                <fullName>107-Demora o no confirmación de pago</fullName>
+                <default>false</default>
+                <label>107-Demora o no confirmación de pago</label>
+            </value>
+            <value>
+                <fullName>108-Error en devolución de prima o aporte</fullName>
+                <default>false</default>
+                <label>108-Error en devolución de prima o aporte</label>
+            </value>
+            <value>
+                <fullName>109-Demora o no aplicación del recaudo</fullName>
+                <default>false</default>
+                <label>109-Demora o no aplicación del recaudo</label>
+            </value>
+            <value>
+                <fullName>110-Error en la aplicación del recaudo</fullName>
+                <default>false</default>
+                <label>110-Error en la aplicación del recaudo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>102-Demora en el servicio requerido para emisión de póliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>103-Demora o no entrega de recibo de pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>104-Error en la facturación o cobro no pactado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>107-Demora o no confirmación de pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>108-Error en devolución de prima o aporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>109-Demora o no aplicación del recaudo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proceso de compra</controllingFieldValue>
+            <valueName>110-Error en la aplicación del recaudo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>6-Mal trato por parte de un funcionario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>7-Mal trato por parte del asesor comercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>26-Obstáculo para la interposición de quejas, reclamos o peticiones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>27-Demora en la respuesta a quejas, reclamos o peticiones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>28-Errores en la resolución de quejas, reclamos o peticiones.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>29-No resolución a quejas, peticiones y reclamos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Atención al cliente</controllingFieldValue>
+            <valueName>5-Dificultad en la comunicación con la entidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cumplimiento de acuerdos y solicitudes</controllingFieldValue>
+            <valueName>12-Demora o no entrega de la cotización</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cumplimiento de acuerdos y solicitudes</controllingFieldValue>
+            <valueName>105-Demora o no realización de modificación de financiación de póliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cumplimiento de acuerdos y solicitudes</controllingFieldValue>
+            <valueName>106-Error en modificación de financiación de póliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información suministrada</controllingFieldValue>
+            <valueName>1-Publicidad engañosa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información suministrada</controllingFieldValue>
+            <valueName>2-Dificultad en el acceso a la información</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información suministrada</controllingFieldValue>
+            <valueName>3-Información incompleta o errada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información suministrada</controllingFieldValue>
+            <valueName>11-Cotización errada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Información suministrada</controllingFieldValue>
+            <valueName>14-Error o falta de claridad en las cláusulas del contrato o de la póliza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manejo de datos personales</controllingFieldValue>
+            <valueName>16-Vinculación no autorizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manejo de datos personales</controllingFieldValue>
+            <valueName>34-Inadecuado tratamiento de datos personales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manejo ético</controllingFieldValue>
+            <valueName>8-Presunta actuación fraudulenta o no ética del personal</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

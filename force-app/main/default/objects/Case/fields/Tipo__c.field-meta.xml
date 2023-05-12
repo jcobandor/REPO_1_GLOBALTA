@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Producto__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Queja</fullName>
+                <default>true</default>
+                <label>Queja</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>30 - Seguro de vida individual</controllingFieldValue>
+            <controllingFieldValue>34 - Seguro de pensiones voluntarias</controllingFieldValue>
+            <controllingFieldValue>26 - Seguro educativo</controllingFieldValue>
+            <controllingFieldValue>36 - Seguro de rentas voluntarias</controllingFieldValue>
+            <controllingFieldValue>27 - Seguro de vida grupo</controllingFieldValue>
+            <valueName>Queja</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

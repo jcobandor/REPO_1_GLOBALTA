@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Casos</fullName>
+    <active>true</active>
+    <businessProcess>Soporte</businessProcess>
+    <description>Registro de casos Peticiones, Quejas, Reclamo, Sugerencia, Felicitaciones de Global Seguros</description>
+    <label>Global Seguros</label>
+    <picklistValues>
+        <picklist>Asuntos__c</picklist>
+        <values>
+            <fullName>Atención al cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cumplimiento de acuerdos y solicitudes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información suministrada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manejo de datos personales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manejo ético</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proceso de compra</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Compania__c</picklist>
+        <values>
+            <fullName>Global Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Seguros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo__c</picklist>
+        <values>
+            <fullName>1-Publicidad engañosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>102-Demora en el servicio requerido para emisión de póliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103-Demora o no entrega de recibo de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>104-Error en la facturación o cobro no pactado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>105-Demora o no realización de modificación de financiación de póliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>106-Error en modificación de financiación de póliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>107-Demora o no confirmación de pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>108-Error en devolución de prima o aporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>109-Demora o no aplicación del recaudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11-Cotización errada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>110-Error en la aplicación del recaudo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12-Demora o no entrega de la cotización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14-Error o falta de claridad en las cláusulas del contrato o de la póliza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16-Vinculación no autorizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-Dificultad en el acceso a la información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>26-Obstáculo para la interposición de quejas%2C reclamos o peticiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27-Demora en la respuesta a quejas%2C reclamos o peticiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28-Errores en la resolución de quejas%2C reclamos o peticiones%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29-No resolución a quejas%2C peticiones y reclamos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Información incompleta o errada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>34-Inadecuado tratamiento de datos personales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5-Dificultad en la comunicación con la entidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-Mal trato por parte de un funcionario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7-Mal trato por parte del asesor comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8-Presunta actuación fraudulenta o no ética del personal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Carta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada recibida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Producto__c</picklist>
+        <values>
+            <fullName>26 - Seguro educativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27 - Seguro de vida grupo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 - Seguro de vida individual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>34 - Seguro de pensiones voluntarias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36 - Seguro de rentas voluntarias</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Respuesta_Global__c</picklist>
+        <values>
+            <fullName>Aceptada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Aceptada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Respuesta_a_favor__c</picklist>
+        <values>
+            <fullName>Consumidor Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Seguros</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipoInformes__c</picklist>
+        <values>
+            <fullName>FELICITACION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PETICION %28SOLICITUD%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QUEJA O RECLAMO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUGERENCIA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo__c</picklist>
+        <values>
+            <fullName>Queja</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TipodeConsulta__c</picklist>
+        <values>
+            <fullName>Beneficios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Corporativa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información de Productos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procedimientos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Queja</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>estadoSemaforo__c</picklist>
+        <values>
+            <fullName>Amarillo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rojo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verde</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_ins__Product__c</picklist>
+        <values>
+            <fullName>GC1020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC1060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC3060</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5040</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GC5060</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

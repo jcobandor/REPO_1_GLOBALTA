@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipodeConsulta__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Consulta</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Información Corporativa</fullName>
+                <default>false</default>
+                <label>Información Corporativa</label>
+            </value>
+            <value>
+                <fullName>Información de Productos</fullName>
+                <default>false</default>
+                <label>Información de Productos</label>
+            </value>
+            <value>
+                <fullName>Procedimientos</fullName>
+                <default>false</default>
+                <label>Procedimientos</label>
+            </value>
+            <value>
+                <fullName>Beneficios</fullName>
+                <default>false</default>
+                <label>Beneficios</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
