@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTA05_Restringir_crear_intermediarios</fullName>
+    <active>true</active>
+    <description>Las cuentas de tipo intermediario pueden ser creadas por &quot;Director Comercial GE&quot;, Director Comercial GS&quot; y Administrador del sistema</description>
+    <errorConditionFormula>AND( 
+RecordType.DeveloperName = &quot;Intermediarios&quot;, 
+NOT( $Profile.Name =&quot;Administrador del sistema 2&quot;), 
+NOT( $Profile.Name =&quot;Director Comercial GS&quot;), 
+NOT( $Profile.Name =&quot;Director Comercial GE&quot;),
+NOT($Profile.Name =&quot;Ejecutivo Comercial GS&quot;)
+)</errorConditionFormula>
+    <errorMessage>CTA05-Las cuentas de tipo Instituciones Educativas solamente deberán ser creadas por un usuario con perfil administrdor y/o Director comercial</errorMessage>
+</ValidationRule>

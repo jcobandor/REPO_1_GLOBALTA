@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>El_n_mero_de_documento_debe_ser_superi</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(NOT( ISBLANK( NumeroDocumento__c )), 
+(OR(ISPICKVAL( TipoDocumento__c , &apos;NIT&apos;),ISPICKVAL( TipoDocumento__c , &apos;CEDULA DE CIUDADANIA&apos;))) 
+, (LEN(NumeroDocumento__c ) &lt;5 ))</errorConditionFormula>
+    <errorDisplayField>NumeroDocumento__c</errorDisplayField>
+    <errorMessage>El número de documento debe tener más caracteres, si tiene inquietudes por favor comunicarse con el administrador del sistema</errorMessage>
+</ValidationRule>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productos_Global_Seguros__c</fullName>
+    <externalId>false</externalId>
+    <label>Productos Global Seguros</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Seguro Vida Individual</fullName>
+                <default>false</default>
+                <label>Seguro Vida Individual</label>
+            </value>
+            <value>
+                <fullName>Seguro Vida Grupo</fullName>
+                <default>false</default>
+                <label>Seguro Vida Grupo</label>
+            </value>
+            <value>
+                <fullName>Seguro Educativo</fullName>
+                <default>false</default>
+                <label>Seguro Educativo</label>
+            </value>
+            <value>
+                <fullName>Seguro de Pensiones</fullName>
+                <default>false</default>
+                <label>Seguro de Pensiones</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

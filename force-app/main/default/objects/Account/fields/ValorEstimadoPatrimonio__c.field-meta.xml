@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValorEstimadoPatrimonio__c</fullName>
+    <externalId>false</externalId>
+    <label>Valor estimado patrimonio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>0 a 200 millones</fullName>
+                <default>false</default>
+                <label>0 a 200 millones</label>
+            </value>
+            <value>
+                <fullName>200 a 400 millones</fullName>
+                <default>false</default>
+                <label>200 a 400 millones</label>
+            </value>
+            <value>
+                <fullName>400 a 600 millones</fullName>
+                <default>false</default>
+                <label>400 a 600 millones</label>
+            </value>
+            <value>
+                <fullName>600 a 800 millones</fullName>
+                <default>false</default>
+                <label>600 a 800 millones</label>
+            </value>
+            <value>
+                <fullName>800 a 1000 millones</fullName>
+                <default>false</default>
+                <label>800 a 1000 millones</label>
+            </value>
+            <value>
+                <fullName>Más de 1000 millones</fullName>
+                <default>false</default>
+                <label>Más de 1000 millones</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

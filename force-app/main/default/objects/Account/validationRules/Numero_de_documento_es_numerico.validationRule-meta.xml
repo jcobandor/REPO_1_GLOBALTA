@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_documento_es_numerico</fullName>
+    <active>true</active>
+    <description>Debe registrar un número en este campo</description>
+    <errorConditionFormula>AND(NOT( ISBLANK( NumeroDocumento__c  )), 
+(OR(ISPICKVAL(  TipoDocumento__c  , &apos;NIT&apos;),ISPICKVAL( TipoDocumento__c , &apos;CEDULA DE CIUDADANIA&apos;),ISPICKVAL(  TipoDocumento__c  , &apos;TARJETA DE IDENTIDAD&apos;))) 
+, NOT( ISNUMBER( NumeroDocumento__c ) ),$Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorDisplayField>NumeroDocumento__c</errorDisplayField>
+    <errorMessage>Debe registrar un número en este campo</errorMessage>
+</ValidationRule>

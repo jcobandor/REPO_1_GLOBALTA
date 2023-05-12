@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Documentaci_n_Apertura_Clave__c</fullName>
+    <defaultValue>&quot;1. Documentos Personal Natural&quot;&amp; BR()&amp; &quot; 2. Documentos Persona Jurídica&quot; &amp; BR()&amp;&quot;3. Ciclo de Capacitación (duración y temas)&quot; &amp; BR()&amp;&quot; 4. Reporte Centrales de Riesgo – Pagaré y carta de instrucciones, &quot; &amp; BR()&amp;&quot;5. Carta de No oposición &quot; &amp; BR()&amp;&quot;6. Hoja de vida de Global Seguros&quot; &amp; BR()&amp;&quot;7.Plan de Carrera&quot;</defaultValue>
+    <externalId>false</externalId>
+    <label>Documentación (Apertura Clave)</label>
+    <length>500</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>

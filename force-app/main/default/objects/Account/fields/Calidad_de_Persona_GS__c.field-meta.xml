@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calidad_de_Persona_GS__c</fullName>
+    <externalId>false</externalId>
+    <label>Calidad de Persona GS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Acudiente Educativo</fullName>
+                <default>false</default>
+                <label>Acudiente Educativo</label>
+            </value>
+            <value>
+                <fullName>Asegurado Pensiones</fullName>
+                <default>false</default>
+                <label>Asegurado Pensiones</label>
+            </value>
+            <value>
+                <fullName>Asegurado Vida Grupo</fullName>
+                <default>false</default>
+                <label>Asegurado Vida Grupo</label>
+            </value>
+            <value>
+                <fullName>Asegurado Vida Individual</fullName>
+                <default>false</default>
+                <label>Asegurado Vida Individual</label>
+            </value>
+            <value>
+                <fullName>Asegurado Vida Individual Educativo</fullName>
+                <default>false</default>
+                <label>Asegurado Vida Individual Educativo</label>
+            </value>
+            <value>
+                <fullName>Beneficiario Educativo</fullName>
+                <default>false</default>
+                <label>Beneficiario Educativo</label>
+            </value>
+            <value>
+                <fullName>Tomador Educativo</fullName>
+                <default>false</default>
+                <label>Tomador Educativo</label>
+            </value>
+            <value>
+                <fullName>Tomador Pensiones</fullName>
+                <default>false</default>
+                <label>Tomador Pensiones</label>
+            </value>
+            <value>
+                <fullName>Tomador Vida Grupo</fullName>
+                <default>false</default>
+                <label>Tomador Vida Grupo</label>
+            </value>
+            <value>
+                <fullName>Tomador Vida Individual</fullName>
+                <default>false</default>
+                <label>Tomador Vida Individual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

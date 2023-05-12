@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTA04_No_modifica_campos_contractuales</fullName>
+    <active>true</active>
+    <description>Una vez es asociada una póliza a la cuenta, el usuario no podrá modificar los datos de la cuenta dado que se modificarán únicamente por integración.</description>
+    <errorConditionFormula>AND(OR(ISCHANGED(DireccionCorrespondencia__c),  ISCHANGED( TipoDocumento__c ), ISCHANGED(Name), ISCHANGED( NumeroDocumento__c), ISCHANGED(EstadoCuenta__c), ISCHANGED(Phone), ISCHANGED(Celular__c), ISCHANGED( CiudadCorrespondencia__c), ISCHANGED( CiudadCorrespondenciaGE__c),ISCHANGED( CiudadNacimientoCta__c),ISCHANGED(Ciudad__c),ISCHANGED(PersonEmail),ISCHANGED(CorreoElectronicoGE__c),ISCHANGED(DireccionResidencia__c),ISCHANGED(DireccionResidenciaGE__c),ISCHANGED(Ocupacion__pc),ISCHANGED(Genero__pc),ISCHANGED(EstadoCivil__c),ISCHANGED(TelefonoCorrespondenciaOficina__c),ISCHANGED( TelefonoCorrespondenciaOficinaGE__c),ISCHANGED(TelefonoCorrespondenciaResidenciaGE__c),ISCHANGED(PersonHomePhone),ISCHANGED(FechaFallecimiento__c)), OR(ClienteGlobalSeguros__c = true,  ClienteGlobalEducation__c=true),
+ $Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorMessage>CTA04-Una vez es asociada una póliza a la cuenta, el usuario no podrá modificar los datos de la cuenta dado que se modificarán únicamente por integración.</errorMessage>
+</ValidationRule>

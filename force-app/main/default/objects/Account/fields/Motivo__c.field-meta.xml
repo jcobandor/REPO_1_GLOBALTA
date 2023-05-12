@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo__c</fullName>
+    <externalId>false</externalId>
+    <label>Motivo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Estado_del_Asesor__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exclusividad</fullName>
+                <default>false</default>
+                <label>Exclusividad</label>
+            </value>
+            <value>
+                <fullName>No cumple perfil</fullName>
+                <default>false</default>
+                <label>No cumple perfil</label>
+            </value>
+            <value>
+                <fullName>Retención de Primas</fullName>
+                <default>false</default>
+                <label>Retención de Primas</label>
+            </value>
+            <value>
+                <fullName>Viaje</fullName>
+                <default>false</default>
+                <label>Viaje</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Aplazado</controllingFieldValue>
+            <valueName>Exclusividad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aplazado</controllingFieldValue>
+            <valueName>Viaje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rechazada</controllingFieldValue>
+            <valueName>No cumple perfil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rechazada</controllingFieldValue>
+            <valueName>Retención de Primas</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

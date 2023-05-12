@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <externalId>false</externalId>
+    <label>Sector</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Ocupaci_n__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Educación</fullName>
+                <default>false</default>
+                <label>Educación</label>
+            </value>
+            <value>
+                <fullName>Financiero</fullName>
+                <default>false</default>
+                <label>Financiero</label>
+            </value>
+            <value>
+                <fullName>Real</fullName>
+                <default>false</default>
+                <label>Real</label>
+            </value>
+            <value>
+                <fullName>Salud</fullName>
+                <default>false</default>
+                <label>Salud</label>
+            </value>
+            <value>
+                <fullName>Ama de Casa</fullName>
+                <default>false</default>
+                <label>Ama de Casa</label>
+            </value>
+            <value>
+                <fullName>Finca Raíz</fullName>
+                <default>false</default>
+                <label>Finca Raíz</label>
+            </value>
+            <value>
+                <fullName>Medicina Pre-pagada</fullName>
+                <default>false</default>
+                <label>Medicina Pre-pagada</label>
+            </value>
+            <value>
+                <fullName>Pensionado</fullName>
+                <default>false</default>
+                <label>Pensionado</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Empleado</controllingFieldValue>
+            <valueName>Educación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empleado</controllingFieldValue>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Financiero</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empleado</controllingFieldValue>
+            <valueName>Real</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Empleado</controllingFieldValue>
+            <valueName>Salud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Ama de Casa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Finca Raíz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Medicina Pre-pagada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Pensionado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Independiente</controllingFieldValue>
+            <valueName>Seguros</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

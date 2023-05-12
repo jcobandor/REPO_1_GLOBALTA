@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Agente__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de Agente</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Sector__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agencia de Seguros</fullName>
+                <default>false</default>
+                <label>Agencia de Seguros</label>
+            </value>
+            <value>
+                <fullName>Agente Independiente</fullName>
+                <default>false</default>
+                <label>Agente Independiente</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Seguros</controllingFieldValue>
+            <valueName>Agencia de Seguros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguros</controllingFieldValue>
+            <valueName>Agente Independiente</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

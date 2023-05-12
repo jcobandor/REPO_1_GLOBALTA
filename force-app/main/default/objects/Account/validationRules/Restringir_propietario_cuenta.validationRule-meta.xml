@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restringir_propietario_cuenta</fullName>
+    <active>true</active>
+    <description>Restringir cambio de propietario para ejecutivos</description>
+    <errorConditionFormula>AND(ISCHANGED(OwnerId), OR( $Profile.Name = &apos;Ejecutivo Comercial GS&apos;, $Profile.Name = &apos;Partner Global Seguros&apos;,$Profile.Name = &apos;Partner Global Education&apos;,$Profile.Name = &apos;Director Comercial GS&apos;,$Profile.Name = &apos;Director Comercial GE&apos;,$Profile.Name = &apos;Ejecutivo Comercial GE&apos;))</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>No se permite cambiar los propietarios de las cuentas, por favor contactar al administrador del sistema</errorMessage>
+</ValidationRule>

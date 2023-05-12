@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Debe_ingresar_un_numero_telefonico</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( LEN( Phone ) &lt;&gt;  7 ,NOT( ISBLANK(Phone)),$Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>El número telefónico debe ser registrado en su totalidad sin signos (Ej: 2304564).</errorMessage>
+</ValidationRule>

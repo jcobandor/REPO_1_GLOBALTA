@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CorreoElectronicoGS__c</fullName>
+    <description>Se crea el campo para notificaciones de Workflows</description>
+    <externalId>false</externalId>
+    <formula>PersonEmail</formula>
+    <label>Correo electrónico GS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

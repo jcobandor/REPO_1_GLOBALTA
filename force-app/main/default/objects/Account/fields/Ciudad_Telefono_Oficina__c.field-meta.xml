@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ciudad_Telefono_Oficina__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Ciudad del telefono de la oficina</description>
+    <externalId>false</externalId>
+    <label>Ciudad Teléfono Oficina</label>
+    <referenceTo>Ciudades__c</referenceTo>
+    <relationshipLabel>Cuentas (Ciudad Teléfono Oficina)</relationshipLabel>
+    <relationshipName>Cuentas7</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

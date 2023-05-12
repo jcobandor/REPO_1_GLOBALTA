@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TipoDocumento__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de documento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CEDULA DE CIUDADANIA</fullName>
+                <default>false</default>
+                <label>CEDULA DE CIUDADANIA</label>
+            </value>
+            <value>
+                <fullName>CEDULA DE EXTRANJERIA</fullName>
+                <default>false</default>
+                <label>CEDULA DE EXTRANJERIA</label>
+            </value>
+            <value>
+                <fullName>NIT</fullName>
+                <default>false</default>
+                <label>NIT</label>
+            </value>
+            <value>
+                <fullName>PASAPORTE</fullName>
+                <default>false</default>
+                <label>PASAPORTE</label>
+            </value>
+            <value>
+                <fullName>REGISTRO CIVIL</fullName>
+                <default>false</default>
+                <label>REGISTRO CIVIL</label>
+            </value>
+            <value>
+                <fullName>TARJETA DE IDENTIDAD</fullName>
+                <default>false</default>
+                <label>TARJETA DE IDENTIDAD</label>
+            </value>
+            <value>
+                <fullName>PERMISO ESPECIAL PERMANENCIA</fullName>
+                <default>false</default>
+                <label>PERMISO ESPECIAL PERMANENCIA</label>
+            </value>
+            <value>
+                <fullName>PERMISO PROTECCION TEMPORAL</fullName>
+                <default>false</default>
+                <label>PERMISO PROTECCION TEMPORAL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

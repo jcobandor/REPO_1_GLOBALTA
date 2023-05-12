@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CursoActual__c</fullName>
+    <externalId>false</externalId>
+    <label>Curso actual</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-kinder</fullName>
+                <default>false</default>
+                <label>Pre-kinder</label>
+            </value>
+            <value>
+                <fullName>Kinder</fullName>
+                <default>false</default>
+                <label>Kinder</label>
+            </value>
+            <value>
+                <fullName>Transición</fullName>
+                <default>false</default>
+                <label>Transición</label>
+            </value>
+            <value>
+                <fullName>Primero</fullName>
+                <default>false</default>
+                <label>Primero</label>
+            </value>
+            <value>
+                <fullName>Segundo</fullName>
+                <default>false</default>
+                <label>Segundo</label>
+            </value>
+            <value>
+                <fullName>Tercero</fullName>
+                <default>false</default>
+                <label>Tercero</label>
+            </value>
+            <value>
+                <fullName>Cuarto</fullName>
+                <default>false</default>
+                <label>Cuarto</label>
+            </value>
+            <value>
+                <fullName>Quinto</fullName>
+                <default>false</default>
+                <label>Quinto</label>
+            </value>
+            <value>
+                <fullName>Sexto</fullName>
+                <default>false</default>
+                <label>Sexto</label>
+            </value>
+            <value>
+                <fullName>Séptimo</fullName>
+                <default>false</default>
+                <label>Séptimo</label>
+            </value>
+            <value>
+                <fullName>Octavo</fullName>
+                <default>false</default>
+                <label>Octavo</label>
+            </value>
+            <value>
+                <fullName>Kinder 5</fullName>
+                <default>false</default>
+                <label>Kinder 5</label>
+            </value>
+            <value>
+                <fullName>Kinder 4</fullName>
+                <default>false</default>
+                <label>Kinder 4</label>
+            </value>
+            <value>
+                <fullName>Pre-Colegio</fullName>
+                <default>false</default>
+                <label>Pre-Colegio</label>
+            </value>
+            <value>
+                <fullName>Kinder 3</fullName>
+                <default>false</default>
+                <label>Kinder 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

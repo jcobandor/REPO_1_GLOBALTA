@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTA01_Seguros</fullName>
+    <active>true</active>
+    <description>Si selecciono el campo &quot;Tiene otros seguros&quot; debe especificar &quot;Cuáles&quot;.</description>
+    <errorConditionFormula>AND(OtrosSeguros__c = true,  ISBLANK( Cuales__c ))</errorConditionFormula>
+    <errorMessage>CTA01 - Si selecciono el campo &quot;Tiene otros seguros&quot; debe especificar &quot;Cuáles&quot;.</errorMessage>
+</ValidationRule>

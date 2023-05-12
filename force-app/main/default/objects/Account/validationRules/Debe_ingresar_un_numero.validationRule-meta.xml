@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Debe_ingresar_un_numero</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT(ISNUMBER(Phone)),NOT( ISBLANK(Phone)),$Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Debe ingresar un numero telefónico de contacto sin guiones, puntos u otros signos</errorMessage>
+</ValidationRule>

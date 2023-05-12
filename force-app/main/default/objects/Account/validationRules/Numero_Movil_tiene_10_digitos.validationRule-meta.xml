@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_Movil_tiene_10_digitos</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(LEN( Celular__c ) &lt;&gt; 10, NOT( ISBLANK(Celular__c ) ),$Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorDisplayField>Celular__c</errorDisplayField>
+    <errorMessage>El número móvil tiene 10 dígitos, registre el número sin puntos, guiones u otros signos.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CTA03_Obligatoriedad_de_campos</fullName>
+    <active>false</active>
+    <description>Es obligatorio diligenciar la ciudad de correspondencia y alguno de los campos teléfono, celular o correo electrónico</description>
+    <errorConditionFormula>AND( RecordType.DeveloperName = &quot;PersonAccount&quot;, AND( ClienteGlobalEducation__c = false,  ClienteGlobalSeguros__c = false), OR(AND(ISPICKVAL($User.Compania__c, &quot;Global Education&quot;), OR(ISBLANK(CiudadCorrespondenciaGE__c), 
+AND(ISBLANK( TelefonoCorrespondenciaOficinaGE__c ),ISBLANK( TelefonoCorrespondenciaResidenciaGE__c ), 
+ISBLANK(CelularGE__c),ISBLANK(CorreoElectronicoGE__c)))),
+AND(ISPICKVAL($User.Compania__c, &quot;Global Seguros&quot;), 
+OR(ISBLANK( CiudadCorrespondencia__c), AND(ISBLANK( TelefonoCorrespondenciaOficina__c  ),ISBLANK(Phone), ISBLANK( Celular__c ),ISBLANK( PersonEmail ))))))</errorConditionFormula>
+    <errorMessage>CTA03-Es obligatorio diligenciar la ciudad de correspondencia y alguno de los campos teléfono, celular o correo electrónico</errorMessage>
+</ValidationRule>

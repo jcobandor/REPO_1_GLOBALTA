@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actividad_Ec__c</fullName>
+    <externalId>false</externalId>
+    <label>Actividad económica</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agropecuario y Materias Primas</fullName>
+                <default>false</default>
+                <label>Agropecuario y Materias Primas</label>
+            </value>
+            <value>
+                <fullName>Alimentos y Bebidas</fullName>
+                <default>false</default>
+                <label>Alimentos y Bebidas</label>
+            </value>
+            <value>
+                <fullName>Asociaciones y Cooperativas</fullName>
+                <default>false</default>
+                <label>Asociaciones y Cooperativas</label>
+            </value>
+            <value>
+                <fullName>Automotriz (Vehículos)</fullName>
+                <default>false</default>
+                <label>Automotriz (Vehículos)</label>
+            </value>
+            <value>
+                <fullName>Banca y Finanzas</fullName>
+                <default>false</default>
+                <label>Banca y Finanzas</label>
+            </value>
+            <value>
+                <fullName>Calzado y Vestuario</fullName>
+                <default>false</default>
+                <label>Calzado y Vestuario</label>
+            </value>
+            <value>
+                <fullName>Comunicaciones - Telecomunicaciones</fullName>
+                <default>false</default>
+                <label>Comunicaciones - Telecomunicaciones</label>
+            </value>
+            <value>
+                <fullName>Construcción - Inmobiliario</fullName>
+                <default>false</default>
+                <label>Construcción - Inmobiliario</label>
+            </value>
+            <value>
+                <fullName>Cultural, Recreación y Deporte</fullName>
+                <default>false</default>
+                <label>Cultural, Recreación y Deporte</label>
+            </value>
+            <value>
+                <fullName>Eléctrico, Electrónico e Informático</fullName>
+                <default>false</default>
+                <label>Eléctrico, Electrónico e Informático</label>
+            </value>
+            <value>
+                <fullName>Industria Turística y Hotelera</fullName>
+                <default>false</default>
+                <label>Industria Turística y Hotelera</label>
+            </value>
+            <value>
+                <fullName>Instituciones Educativas</fullName>
+                <default>false</default>
+                <label>Instituciones Educativas</label>
+            </value>
+            <value>
+                <fullName>Instituciones Gubernamentales (Público)</fullName>
+                <default>false</default>
+                <label>Instituciones Gubernamentales (Público)</label>
+            </value>
+            <value>
+                <fullName>Minería y Petróleo</fullName>
+                <default>false</default>
+                <label>Minería y Petróleo</label>
+            </value>
+            <value>
+                <fullName>Salud y Clínicas</fullName>
+                <default>false</default>
+                <label>Salud y Clínicas</label>
+            </value>
+            <value>
+                <fullName>Otro o General</fullName>
+                <default>false</default>
+                <label>Otro o General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

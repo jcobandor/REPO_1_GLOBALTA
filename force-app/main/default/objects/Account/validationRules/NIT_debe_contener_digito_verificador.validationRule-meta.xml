@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NIT_debe_contener_digito_verificador</fullName>
+    <active>true</active>
+    <description>El número de NIT debe contener dígito verificador para lo cual se deben relacionar 10 dígitos sin puntos, guiones u otros signos.</description>
+    <errorConditionFormula>AND(NOT( ISBLANK( NumeroDocumento__c  )), ISPICKVAL(  TipoDocumento__c , &apos;NIT&apos;), NOT(LEN(NumeroDocumento__c)=10 ),$Profile.Name &lt;&gt; &quot;Administrador del sistema 2&quot;)</errorConditionFormula>
+    <errorDisplayField>NumeroDocumento__c</errorDisplayField>
+    <errorMessage>El número de NIT debe contener dígito verificador para lo cual se deben relacionar 10 dígitos</errorMessage>
+</ValidationRule>
