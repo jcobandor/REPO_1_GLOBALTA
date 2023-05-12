@@ -1,0 +1,10 @@
+Name: Field Case
+ignoreDependencies: true
+VlocityDataPackKeys:
+    - profiles/Administrador del sistema 2.profile
+    - objects/Case/fields/Campo_de_Prueba2__c.field
+VlocityTypesToFetch:
+
+SalesforceTypesToFetch:
+    - CustomField
+    - Profile

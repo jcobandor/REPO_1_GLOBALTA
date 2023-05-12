@@ -2,8 +2,8 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Campo_de_Prueba2__c</fullName>
     <externalId>false</externalId>
-    <label>Campo de Prueba2</label>
-    <precision>5</precision>
+    <label>Campo de Prueba_02</label>
+    <precision>8</precision>
     <required>false</required>
     <scale>0</scale>
     <trackFeedHistory>false</trackFeedHistory>
